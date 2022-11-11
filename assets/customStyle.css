@@ -1,0 +1,176 @@
+.whyChooseUsBody {
+  margin-top: 1rem !important;
+}
+.ourStrategyParagraph {
+  margin-bottom: 0rem !important;
+}
+.strategyImg {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.servicesParagraph {
+  font-size: 0.7rem;
+}
+.servicesParagraphAr {
+  font-size: 0.9rem;
+}
+.marginBottom {
+  margin-bottom: 1.2rem;
+}
+.navLogo {
+  padding-bottom: 0 !important;
+}
+.practice-areas .textAr {
+  height: 320px;
+  max-height: 320px;
+}
+.practice-areas .textEn {
+  height: 370px;
+  max-height: 370px;
+}
+.overlayTakeCare {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  content: "";
+  opacity: 0.98;
+  background: linear-gradient(90deg, #fff 83%, #cd9269 83%);
+  z-index: -1;
+}
+.ftco-sectionTakeCare {
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.plTakeCare {
+  padding-left: 16rem !important;
+}
+.container-xlTakeCare {
+  width: 100%;
+  padding: 0 2rem;
+}
+.container-xlTakeCare img {
+  width: 350px;
+}
+.TakeCareText {
+  margin-top: 4rem !important;
+}
+.ftco-sectionWhoIsShiaw {
+  background: #262626;
+}
+.container-WhoIsShiaw {
+  width: 100%;
+  padding: 0;
+}
+.container-WhoIsShiaw img {
+  width: 100%;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  letter-spacing: 0 !important;
+  word-spacing: 3px;
+}
+.aboutusImg {
+  position: relative;
+  height: 100%;
+  padding: 2rem 0 0 0;
+}
+.happyClientBackGroungImg {
+  background-size: 100% !important;
+  background-position: center !important;
+}
+.testimony-wrap .name {
+  font-size: 18px !important;
+}
+.msg {
+  font-size: 14px;
+}
+.happyClientMsgHeightEn {
+  height: 200px;
+}
+.happyClientMsgHeightAr {
+  height: 100px;
+}
+@media screen and (max-width: 767px) {
+  .aboutMobile,
+  .aboutMobile p {
+    width: 80%;
+  }
+  #strategyContainer {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .aboutMobile,
+  .aboutMobile p,
+  .aboutUsMobileEn {
+    width: 80%;
+  }
+  #strategyContainer {
+    display: none !important;
+  }
+  .TakeCareText {
+    width: 100% !important;
+  }
+  .counterMobileContainer {
+    justify-content: center !important;
+  }
+  .counterMobile {
+    width: 80% !important;
+    text-align: center;
+  }
+  .counterMobile div:first-child {
+    justify-content: center !important;
+  }
+  .ftco-counter .text {
+    width: 50% !important;
+  }
+  .WhoIsShiawMobileText {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .practice-areas .text {
+    height: 350px;
+    max-height: 350px;
+  }
+  .whoIsShiawMobile {
+    font-size: 1rem;
+  }
+  .whoIsShiawMobileImg {
+    padding-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 980px) and (orientation: landscape) {
+  .whoIsShiawMobileImg {
+    padding-right: 0 !important;
+    width: 50% !important;
+  }
+  .practice-areas .textEn {
+    height: 500px;
+    max-height: 500px;
+  }
+  .practice-areas .textAr {
+    height: 450px;
+    max-height: 450px;
+  }
+  #strategyContainer {
+    display: none !important;
+  }
+  .TakeCareText {
+    width: 85% !important;
+  }
+  .WhoIsShiawMobileText {
+    width: 50% !important;
+    text-align: justify;
+  }
+  .container-WhoIsShiaw img {
+    height: 100%;
+  }
+  .ftco-appointmentAr {
+    direction: rtl !important;
+  }
+}
